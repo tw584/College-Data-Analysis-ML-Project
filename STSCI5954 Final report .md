@@ -54,19 +54,23 @@ Our analysis identified several key factors that distinguish elite institutions.
 Key features identified by both models included out-of-state tuition (Outstate), the percentage of students from the top 10% of their high school classes (Top10perc), and expenditure per student (Expend). However, the Random Forest model further highlighted the importance of acceptance rate (Accept) as an influential predictor. The Random Forest model’s ability to capture non-linear relationships and feature interactions contributed to its superior performance, particularly in identifying nuanced patterns in the data.
 
 
+
 <img width="625" alt="Screenshot 2025-01-03 at 13 38 32" src="https://github.com/user-attachments/assets/c62153cf-8863-4a46-ba4a-29d6758fa414" />
 
 Figure 2: Top 5 Influential Feature for Random Forest and Logistic Regression
+
 
 
 <img width="557" alt="Screenshot 2025-01-03 at 13 39 34" src="https://github.com/user-attachments/assets/02d62b9f-91ec-4f3c-b6d9-9692ccc4e646" />
 
  Figure 3: The Accuracy and ROC-AUC for Random Forest vs. Logistic Regression Model
 
+
   
 <img width="455" alt="Screenshot 2025-01-03 at 13 40 06" src="https://github.com/user-attachments/assets/93548128-7bdd-42a5-a753-8c11bef50a19" />
 
  Figure 4: ROC curve comparison for Random Forest Model vs. Logistic Regression Model
+
 
 As shown in Figure 2, the coefficients for Logistic Regression emphasize the strong influence of variables like Outstate (coefficient 2.7679) and Top10perc (coefficient 2.1552), demonstrating their significant contributions to predicting elite status. Similarly, Random Forest’s feature importance rankings highlight Outstate (importance 0.1829) and Top10perc (importance 0.1217) as the top predictors, underscoring the consistency across models.
 
