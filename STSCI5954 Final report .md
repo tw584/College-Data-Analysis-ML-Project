@@ -28,6 +28,7 @@ The dataset includes 18 variables, which capture various characteristics of high
 The dataset comprises 777 observations with no missing values. Among the 18 variables, 17 are numeric, and one is categorical. The categorical variable, Private, contains 565 "Yes" values (private institutions) and 212 "No" values (public institutions). This dataset highlights three primary dependent variables of interest: application rates (Apps), graduation rates (Grad.Rate), and alumni donation percentages (perc.alumni). The remaining 15 variables are treated as independent variables to model their impact on the dependent variables.
 
 <img width="580" alt="Screenshot 2025-01-03 at 13 35 28" src="https://github.com/user-attachments/assets/4c867eb6-434d-466e-87de-2b12bfea59b9" />
+
 Figure 1: statistics table  
 
 To prepare the dataset for analysis, a series of data preprocessing steps were undertaken. 
